@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.datayes.iia</groupId>
+  <artifactId>module-common</artifactId>
+  <versioning>
+    <release>0.1.14</release>
+    <versions>
+      <version>0.1.14</version>
+    </versions>
+    <lastUpdated>20180426084436</lastUpdated>
+  </versioning>
+</metadata>

@@ -53,6 +53,7 @@ versions.qiyukf_unicorn = "4.0.0"
 versions.magic_indicator = "1.5.0"
 versions.okhttp = "3.3.0"
 versions.retrofit = "2.3.0"
+versions.photoview = "1.2.4"
 
 // 外部依赖
 def deps = [:]
@@ -158,6 +159,7 @@ extra.pdf_view = "com.github.barteksc:android-pdf-viewer:$versions.pdf_view"
 extra.glide = "com.github.bumptech.glide:glide:$versions.glide"
 extra.qiyukf_unicorn = "com.qiyukf.unicorn:unicorn:$versions.qiyukf_unicorn"
 extra.magic_indicator = "com.github.hackware1993:MagicIndicator:$versions.magic_indicator"
+extra.photoview = "com.github.chrisbanes.photoview:library:$versions.photoview"
 extra.okhttp = "com.squareup.okhttp3:okhttp:$versions.okhttp"
 deps.extra = extra
 

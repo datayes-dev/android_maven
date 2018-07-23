@@ -16,9 +16,9 @@ versions.datayes_view = "0.2.12"
 versions.datayes_pdf = "1.0.0"
 
 // 通联功能
-versions.datayes_iia_news = "1.0.0"
+versions.datayes_iia_news = "1.0.1"
 versions.datayes_iia_news_api = "1.0.0"
-versions.datayes_iia_announce = "1.0.0"
+versions.datayes_iia_announce = "1.0.1"
 versions.datayes_iia_announce_api = "1.0.0"
 
 // 第三方库版本号

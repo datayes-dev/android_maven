@@ -89,7 +89,7 @@ datayes.datayes_iia_announce_api = "com.datayes.iia:announce_api:$versions.datay
 datayes.datayes_iia_announce = "com.datayes.iia:announce:$versions.datayes_iia_announce"
 datayes.datayes_iia_report_api = "com.datayes.iia:report_api:$versions.datayes_iia_report_api"
 datayes.datayes_iia_report = "com.datayes.iia:report:$versions.datayes_iia_report"
-datayes.datayes_iia_search = "com.datayes.iia:search:$versions.datayes_iia_search"
+datayes.datayes_iia_search = "com.datayes.iia.common:search:$versions.datayes_iia_search"
 
 deps.datayes = datayes
 

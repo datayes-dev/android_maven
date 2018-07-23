@@ -15,6 +15,12 @@ versions.datayes_utils = "0.2.2"
 versions.datayes_view = "0.2.12"
 versions.datayes_pdf = "1.0.0"
 
+// 通联功能
+versions.datayes_iia_news = "1.0.0"
+versions.datayes_iia_news_api = "1.0.0"
+versions.datayes_iia_announce = "1.0.0"
+versions.datayes_iia_announce_api = "1.0.0"
+
 // 第三方库版本号
 versions.support = "27.1.1"
 versions.support_multidex = "1.0.3"
@@ -72,6 +78,13 @@ datayes.datayes_storage = "com.datayes:common-storage:$versions.datayes_storage"
 datayes.datayes_utils = "com.datayes:common-utils:$versions.datayes_utils"
 datayes.datayes_chart = "com.datayes:common-chart:$versions.datayes_chart"
 datayes.datayes_pdf = "com.datayes:pdf:$versions.datayes_pdf"
+
+// 通联功能
+datayes.datayes_iia_news_api = "com.datayes.iia:news_api:$versions.datayes_iia_news_api"
+datayes.datayes_iia_news = "com.datayes.iia:news:$versions.datayes_iia_news"
+datayes.datayes_iia_announce_api = "com.datayes.iia:announce_api:$versions.datayes_iia_announce_api"
+datayes.datayes_iia_announce = "com.datayes.iia:announce:$versions.datayes_iia_announce"
+
 deps.datayes = datayes
 
 // 第三方

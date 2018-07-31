@@ -28,6 +28,7 @@ versions.datayes_iia_search = "0.1.7"
 versions.datayes_iia_servicestock_api = "1.0.0"
 versions.datayes_iia_stockmarket_api = "0.1.1"
 versions.datayes_iia_selfstock_api = "0.1.3"
+versions.datayes_iia_robotforecast_api = "0.0.1"
 
 // 第三方库版本号
 versions.support = "27.1.1"
@@ -100,6 +101,7 @@ datayes.datayes_iia_search = "com.datayes.iia:search:$versions.datayes_iia_searc
 datayes.datayes_iia_servicestock_api = "com.datayes.iia:servicestock_api:$versions.datayes_iia_servicestock_api"
 datayes.datayes_iia_stockmarket_api = "com.datayes.iia:stockmarket_api:$versions.datayes_iia_stockmarket_api"
 datayes.datayes_iia_selfstock_api = "com.datayes.iia:selfstock_api:$versions.datayes_iia_selfstock_api"
+datayes.datayes_iia_robotforecast_api = "com.datayes.iia:robotforecast_api:$versions.datayes_iia_robotforecast_api"
 
 deps.datayes = datayes
 

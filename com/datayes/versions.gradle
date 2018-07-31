@@ -103,6 +103,7 @@ datayes.datayes_iia_servicestock_api = "com.datayes.iia:servicestock_api:$versio
 datayes.datayes_iia_stockmarket_api = "com.datayes.iia:stockmarket_api:$versions.datayes_iia_stockmarket_api"
 datayes.datayes_iia_selfstock_api = "com.datayes.iia:selfstock_api:$versions.datayes_iia_selfstock_api"
 datayes.datayes_iia_robotforecast_api = "com.datayes.iia:robotforecast_api:$versions.datayes_iia_robotforecast_api"
+datayes.datayes_iia_robotmarket_api = "com.datayes.iia:robotmarket_api:$versions.datayes_iia_robotmarket_api"
 
 deps.datayes = datayes
 

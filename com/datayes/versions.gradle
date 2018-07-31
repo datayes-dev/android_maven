@@ -33,6 +33,7 @@ versions.datayes_iia_robotmarket_api = "0.0.1"
 versions.datayes_iia_chart = "0.0.1"
 versions.datayes_iia_robotforecast = "0.0.1"
 versions.datayes_iia_theme_api = "0.1.2"
+versions.datayes_iia_theme = "0.0.1"
 
 // 第三方库版本号
 versions.support = "27.1.1"
@@ -110,6 +111,7 @@ datayes.datayes_iia_robotmarket_api = "com.datayes.iia:robotmarket_api:$versions
 datayes.datayes_iia_chart = "com.datayes.iia:module-chart:$versions.datayes_iia_chart"
 datayes.datayes_iia_robotforecast = "com.datayes.iia:robotforecast:$versions.datayes_iia_robotforecast"
 datayes.datayes_iia_theme_api = "com.datayes.iia:theme_api:$versions.datayes_iia_theme_api"
+datayes.datayes_iia_theme = "com.datayes.iia:theme:$versions.datayes_iia_theme"
 
 deps.datayes = datayes
 

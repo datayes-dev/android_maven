@@ -36,6 +36,7 @@ versions.datayes_iia_theme_api = "0.1.2"
 versions.datayes_iia_theme = "0.0.1"
 versions.datayes_iia_servicestock = "0.0.1"
 versions.datayes_iia_stockmarket = "0.0.1"
+versions.datayes_iia_robotmarket = "0.0.1"
 
 // 第三方库版本号
 versions.support = "27.1.1"
@@ -116,6 +117,7 @@ datayes.datayes_iia_theme_api = "com.datayes.iia:theme_api:$versions.datayes_iia
 datayes.datayes_iia_theme = "com.datayes.iia:theme:$versions.datayes_iia_theme"
 datayes.datayes_iia_servicestock = "com.datayes.iia:servicestock:$versions.datayes_iia_servicestock"
 datayes.datayes_iia_stockmarket = "com.datayes.iia:stockmarket:$versions.datayes_iia_stockmarket"
+datayes.datayes_iia_robotmarket = "com.datayes.iia:robotmarket:$versions.datayes_iia_robotmarket"
 
 deps.datayes = datayes
 

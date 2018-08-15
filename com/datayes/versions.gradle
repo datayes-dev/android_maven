@@ -4,7 +4,7 @@ ext.deps = [:]
 def versions = [:]
 // DataYes内部库版本号
 versions.datayes_common = "1.2.1"
-versions.datayes_track = "0.2.27"
+versions.datayes_track = "0.2.28"
 versions.datayes_cloud = "0.2.6"
 versions.datayes_bus = "0.2.2"
 versions.datayes_chart = "0.3.32"
@@ -71,7 +71,7 @@ versions.java_websocket = "1.3.8"
 versions.pdf_view = "2.8.2"
 versions.glide = "3.7.0"
 versions.glide_transform = "2.0.1"
-versions.umeng_common = "1.5.0"
+versions.umeng_common = "1.5.3"
 versions.umeng_analytics = "7.5.0"
 versions.qiyukf_unicorn = "4.0.0"
 versions.magic_indicator = "1.5.0"

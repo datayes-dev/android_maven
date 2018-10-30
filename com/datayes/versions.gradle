@@ -3,7 +3,7 @@ ext.deps = [:]
 // 依赖库版本号
 def versions = [:]
 // DataYes内部库版本号
-versions.datayes_common = "1.5.9"
+versions.datayes_common = "1.5.10"
 versions.datayes_track = "0.3.3"
 versions.datayes_cloud = "0.3.3"
 versions.datayes_bus = "0.2.4"
@@ -28,7 +28,7 @@ versions.datayes_iia_report_api = "1.0.2"
 versions.datayes_iia_search = "0.2.0"
 versions.datayes_iia_servicestock = "0.2.8"
 versions.datayes_iia_servicestock_api = "1.0.0"
-versions.datayes_iia_stockmarket = "0.6.2"
+versions.datayes_iia_stockmarket = "0.6.3"
 versions.datayes_iia_stockmarket_api = "0.2.0"
 versions.datayes_iia_selfstock_api = "0.3.0"
 versions.datayes_iia_robotforecast = "1.2.0"
@@ -81,6 +81,7 @@ versions.magic_indicator = "1.5.0"
 versions.okhttp = "3.3.0"
 versions.retrofit = "2.3.0"
 versions.photoview = "1.2.4"
+versions.protobuf = "2.6.1"
 
 // 外部依赖
 def deps = [:]
@@ -168,6 +169,7 @@ deps.retrofit = retrofit
 
 def google = [:]
 google.gson = "com.google.code.gson:gson:$versions.gson"
+google.protobuf = "com.google.protobuf:protobuf-java:$versions.protobuf"
 deps.google = google
 
 def alibaba = [:]

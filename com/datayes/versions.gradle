@@ -16,7 +16,7 @@ versions.datayes_view = "0.4.1"
 versions.datayes_pdf = "1.0.0"
 versions.datayes_ocr_ui = "0.1.2"
 versions.datayes_servicethirdparty = "0.3.3"
-versions.datayes_push = "0.1.0"
+versions.datayes_push = "0.2.0"
 
 // 通联功能
 versions.datayes_iia_news = "1.0.3"

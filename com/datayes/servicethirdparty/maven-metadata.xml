@@ -3,7 +3,7 @@
   <groupId>com.datayes</groupId>
   <artifactId>servicethirdparty</artifactId>
   <versioning>
-    <release>0.3.4</release>
+    <release>0.3.6</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -19,7 +19,8 @@
       <version>0.2.9</version>
       <version>0.3.3</version>
       <version>0.3.4</version>
+      <version>0.3.6</version>
     </versions>
-    <lastUpdated>20181031115140</lastUpdated>
+    <lastUpdated>20181106061009</lastUpdated>
   </versioning>
 </metadata>

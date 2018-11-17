@@ -37,7 +37,7 @@ versions.datayes_iia_robotmarket = "0.2.10"
 versions.datayes_iia_robotmarket_api = "0.0.1"
 versions.datayes_iia_theme = "1.0.1"
 versions.datayes_iia_theme_api = "0.1.2"
-versions.datayes_iia_chart = "0.1.2"
+versions.datayes_iia_chart = "0.1.4"
 versions.datayes_iia_indic = "0.0.3"
 
 // 第三方库版本号

@@ -41,7 +41,7 @@ versions.datayes_iia_chart = "0.1.4"
 versions.datayes_iia_indic = "0.0.3"
 
 // 第三方库版本号
-versions.support = "27.1.1"
+versions.support = "28.0.0"
 versions.support_multidex = "1.0.3"
 versions.support_constraint = "1.1.2"
 versions.arouter_runtime = "1.3.1"

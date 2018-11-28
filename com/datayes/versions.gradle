@@ -125,7 +125,7 @@ datayes.datayes_iia_servicestock = "com.datayes.iia:servicestock:$versions.datay
 datayes.datayes_iia_stockmarket = "com.datayes.iia:stockmarket:$versions.datayes_iia_stockmarket"
 datayes.datayes_iia_robotmarket = "com.datayes.iia:robotmarket:$versions.datayes_iia_robotmarket"
 datayes.datayes_iia_indic = "com.datayes.iia:indic:$versions.datayes_iia_indic"
-datayes.datayes_iia_balance = "com.datayes.iia:indic:$versions.datayes_iia_balance"
+datayes.datayes_iia_balance = "com.datayes.irr:balance:$versions.datayes_iia_balance"
 
 deps.datayes = datayes
 

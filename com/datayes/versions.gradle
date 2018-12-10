@@ -5,7 +5,7 @@ def versions = [:]
 // DataYes内部库版本号
 versions.datayes_common = "1.8.8"
 versions.datayes_track = "0.4.0"
-versions.datayes_cloud = "0.5.9"
+versions.datayes_cloud = "0.5.10"
 versions.datayes_bus = "0.2.4"
 versions.datayes_chart = "0.6.0"
 versions.datayes_imageloader = "0.1.7"

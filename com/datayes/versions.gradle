@@ -3,7 +3,7 @@ ext.deps = [:]
 // 依赖库版本号
 def versions = [:]
 // DataYes内部库版本号
-versions.datayes_common = "1.9.6"
+versions.datayes_common = "1.9.7"
 versions.datayes_track = "0.4.2"
 versions.datayes_cloud = "0.6.1"
 versions.datayes_bus = "0.2.4"
@@ -83,6 +83,8 @@ versions.okhttp = "3.3.0"
 versions.retrofit = "2.3.0"
 versions.photoview = "1.2.4"
 versions.protobuf = "2.6.1"
+versions.subsampling_scale_image_view = "3.10.0"
+versions.nineoldandroids = "2.4.0"
 
 // 外部依赖
 def deps = [:]
@@ -223,6 +225,8 @@ extra.qiyukf_unicorn = "com.qiyukf.unicorn:unicorn:$versions.qiyukf_unicorn"
 extra.magic_indicator = "com.github.hackware1993:MagicIndicator:$versions.magic_indicator"
 extra.photoview = "com.github.chrisbanes.photoview:library:$versions.photoview"
 extra.okhttp = "com.squareup.okhttp3:okhttp:$versions.okhttp"
+extra.subsampling_scale_image_view = "com.davemorrissey.labs:subsampling-scale-image-view:$versions.subsampling_scale_image_view"
+extra.nineoldandroids = "com.nineoldandroids:library:$versions.nineoldandroids"
 deps.extra = extra
 
 ext.deps = deps

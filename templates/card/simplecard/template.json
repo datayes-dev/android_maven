@@ -1,0 +1,11 @@
+{
+    "version": 0.1,
+    "min_plugin": 0.1,
+    "source": [
+        {
+            "name":"SimpleCard",
+            "data":"https://raw.github.com/datayes-dev/android_maven/master/templates/card/simplecard/template.xml",
+            "file":"https://raw.github.com/datayes-dev/android_maven/master/templates/card/simplecard/simplecard.rar"
+        }
+    ]
+}

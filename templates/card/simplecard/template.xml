@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="5"
+    name="简单卡片"
+    minApi="7"
+    minBuildApi="14"
+    description="">
+
+    <category value="datayes" />
+    <formfactor value="Mobile" />
+
+    <!-- input data -->
+    
+
+    <parameter
+        id="cardName"
+        name="名称"
+        type="string"
+        constraints="unique|nonempty"
+        default="FeedImage"
+        help="" />
+
+    <parameter
+        id="cardClassdName"
+        name="类名"
+        type="string"
+        constraints="unique|nonempty"
+        suggest="${cardName}Card"
+        default="TestCard"
+        help="" />
+
+    <parameter
+        id="ModuleName"
+        name="模块"
+        type="string"
+        constraints="unique|nonempty"
+        default="modulename" />
+
+    <parameter
+        id="layoutName"
+        name="布局"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${ModuleName}_${camelCaseToUnderscore(cardName)}_card"
+        default="modulename_test_card"
+        help="The name of the layout to create for the activity" />    
+
+    <parameter
+        id="cardDes"
+        name="卡片描述"
+        type="string"
+        constraints="unique|nonempty"
+        default="卡片功能描述"
+        help="" />
+
+    <parameter
+        id="packageName"
+        name="包名"
+        type="string"
+        constraints="package"
+        default="com.datayes.module" />
+
+    <!-- 128x128 thumbnails relative to com.puke.template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_cover.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

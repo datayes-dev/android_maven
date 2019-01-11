@@ -139,7 +139,7 @@ public class ${activityClass} extends BaseActivity {
             }
         });
 
-        RxJavaUtils.viewClick(lineView, v -> finish());
+        RxJavaUtils.viewClick(backBtn, v -> finish());
     }
 
 <#if tabMode>

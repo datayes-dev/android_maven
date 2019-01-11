@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="5"
+    name="Activity标题"
+    minApi="9"
+    minBuildApi="14"
+    description="Creates a new empty activity">
+
+    <category value="datayes" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="instantAppActivityHost"
+        name="Instant App URL Host"
+        type="string"
+        suggest="${companyDomain}"
+        default="instantapp.example.com"
+        visibility="isInstantApp!false"
+        help="The domain to use in the Instant App route for this activity"/>
+
+    <parameter
+        id="instantAppActivityRouteType"
+        name="Instant App URL Route Type"
+        type="enum"
+        default="pathPattern"
+        visibility="isInstantApp!false"
+        help="The type of route to use in the Instant App route for this activity" >
+        <option id="path">Path</option>
+        <option id="pathPrefix">Path Prefix</option>
+        <option id="pathPattern">Path Pattern</option>
+    </parameter>
+
+    <parameter
+        id="instantAppActivityRoute"
+        name="Instant App URL Route"
+        type="string"
+        default="/.*"
+        visibility="isInstantApp!false"
+        help="The route to use in the Instant App route for this activity"/>
+
+    <parameter
+        id="activityName"
+        name="名称"
+        type="string"
+        constraints="nonempty"
+        default="Main"
+        help="Other examples are 'Person', 'Book', etc." />
+
+    <parameter
+        id="activityClass"
+        name="类名"
+        type="string"
+        constraints="class|unique|nonempty"
+        suggest="${activityName}Activity"
+        default="MainActivity"
+        help="The name of the activity class to create" />
+
+    <parameter
+        id="ModuleName"
+        name="模块"
+        type="string"
+        constraints="moduleName|unique|nonempty"
+        default="modulename" />
+
+    <parameter
+        id="generateLayout"
+        name="Generate Layout File"
+        type="boolean"
+        default="true"
+        visibility="false"
+        help="If true, a layout file will be generated" />
+
+    <parameter
+        id="layoutName"
+        name="布局"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${ModuleName}_${activityName?lower_case}_activity"
+        default="modulename_main_activity"
+        visibility="generateLayout"
+        help="The name of the layout to create for the activity" />
+
+    <parameter
+        id="isLauncher"
+        name="Launcher Activity"
+        type="boolean"
+        default="false"
+        visibility="false"
+        help="If true, this activity will have a CATEGORY_LAUNCHER intent filter, making it visible in the launcher" />
+
+    <parameter
+        id="backwardsCompatibility"
+        name="Backwards Compatibility (AppCompat)"
+        type="boolean"
+        default="true"
+        visibility="false"
+        help="If false, this activity base class will be Activity instead of AppCompatActivity" />
+
+    <parameter
+        id="HasTitle"
+        name="是否有标题"
+        type="boolean"
+        default="true"
+        help="If true, this activity will have a CATEGORY_LAUNCHER intent filter, making it visible in the launcher" />
+
+    <parameter
+        id="TitleValue"
+        name="标题"
+        type="string"
+        constraints="ActivityTitle|unique|nonempty"
+        visibility="HasTitle"
+        default="Title" />
+
+    <parameter
+        id="ActivityDes"
+        name="描述"
+        type="string"
+        constraints="unique|nonempty"
+        default="Activity描述" />
+
+    <parameter
+        id="themeName"
+        name="主题"
+        type="string"
+        constraints="unique|nonempty"
+        default="AppTheme.W1" />
+
+    <parameter
+        id="packageName"
+        name="包名"
+        type="string"
+        constraints="package"
+        default="com.datayes.module" />
+
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_blank_activity.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

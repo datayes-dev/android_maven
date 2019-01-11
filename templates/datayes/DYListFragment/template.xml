@@ -115,7 +115,14 @@
 
     <parameter
         id="needRefresh"
-        name="是否需要下拉刷新"
+        name="下拉刷新"
+        type="boolean"
+        default="false"
+        help="列表形式" />
+
+    <parameter
+        id="isHorizontalScroll"
+        name="Cell横向滑动"
         type="boolean"
         default="false"
         help="列表形式" />

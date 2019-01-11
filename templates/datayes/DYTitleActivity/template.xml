@@ -76,7 +76,7 @@
         name="布局"
         type="string"
         constraints="layout|unique|nonempty"
-        suggest="${ModuleName}_${activityName?lower_case}_activity"
+        suggest="${ModuleName}_${classToResource(activityName)}_activity"
         default="modulename_main_activity"
         visibility="generateLayout"
         help="The name of the layout to create for the activity" />

@@ -2,7 +2,7 @@
 <template
     format="5"
     revision="5"
-    name="Activity沉浸式"
+    name="FragmentList"
     minApi="9"
     minBuildApi="14">
 
@@ -51,8 +51,8 @@
         name="类名"
         type="string"
         constraints="class|unique|nonempty"
-        suggest="${activityName}Activity"
-        default="MainActivity"
+        suggest="${activityName}Fragment"
+        default="MainFragment"
         help="The name of the activity class to create" />
 
     <parameter
@@ -75,8 +75,18 @@
         name="布局"
         type="string"
         constraints="layout|unique|nonempty"
-        suggest="${ModuleName}_${classToResource(activityName)}_activity"
-        default="modulename_main_activity"
+        suggest="${ModuleName}_${classToResource(activityName)}_fragment"
+        default="modulename_main_fragment"
+        visibility="generateLayout"
+        help="The name of the layout to create for the activity" />
+
+    <parameter
+        id="layoutNameItem"
+        name="布局"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${ModuleName}_${classToResource(activityName)}_item"
+        default="modulename_main_item"
         visibility="generateLayout"
         help="The name of the layout to create for the activity" />
 
@@ -104,25 +114,19 @@
         default="Activity描述" />
 
     <parameter
-        id="linearLayoutMode"
-        name="LinearLayout形式"
-        type="boolean"
-        default="true"
-        help="列表形式" />
-
-    <parameter
-        id="tabMode"
-        name="Tab形式"
+        id="needRefresh"
+        name="是否需要下拉刷新"
         type="boolean"
         default="false"
-        help="Tab形式" />
+        help="列表形式" />
 
     <parameter
         id="themeName"
         name="主题"
         type="string"
         constraints="unique|nonempty"
-        default="AppTheme.W1" />
+        default="EThemeColor.LIGHT"
+        help="EThemeColor.LIGHT EThemeColor.DARK" />
 
     <parameter
         id="packageName"

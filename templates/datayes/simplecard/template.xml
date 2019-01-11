@@ -42,7 +42,7 @@
         name="布局"
         type="string"
         constraints="layout|unique|nonempty"
-        suggest="${ModuleName}_${camelCaseToUnderscore(cardName)}_card"
+        suggest="${ModuleName}_${classToResource(cardName)}_card"
         default="modulename_test_card"
         help="The name of the layout to create for the activity" />    
 

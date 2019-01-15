@@ -40,6 +40,8 @@ versions.datayes_iia_theme_api = "0.1.2"
 versions.datayes_iia_chart = "0.2.0"
 versions.datayes_iia_indic = "0.0.3"
 versions.datayes_iia_balance = "1.2.2"
+versions.datayes_iia_paper = "0.0.1"
+versions.datayes_iia_paper_api = "0.0.1"
 
 // 第三方库版本号
 versions.support = "28.0.0"
@@ -128,6 +130,9 @@ datayes.datayes_iia_stockmarket = "com.datayes.iia:stockmarket:$versions.datayes
 datayes.datayes_iia_robotmarket = "com.datayes.iia:robotmarket:$versions.datayes_iia_robotmarket"
 datayes.datayes_iia_indic = "com.datayes.iia:indic:$versions.datayes_iia_indic"
 datayes.datayes_iia_balance = "com.datayes.irr:balance:$versions.datayes_iia_balance"
+datayes.datayes_iia_paper = "com.datayes.irr:paper:$versions.datayes_iia_paper"
+datayes.datayes_iia_paper_api = "com.datayes.irr:paper_api:$versions.datayes_iia_paper_api"
+
 
 deps.datayes = datayes
 

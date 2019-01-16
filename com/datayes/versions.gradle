@@ -40,7 +40,7 @@ versions.datayes_iia_theme_api = "0.1.2"
 versions.datayes_iia_chart = "0.2.0"
 versions.datayes_iia_indic = "0.0.3"
 versions.datayes_iia_balance = "1.2.2"
-versions.datayes_iia_paper = "0.0.1"
+versions.datayes_iia_paper = "0.0.2"
 versions.datayes_iia_paper_api = "0.0.1"
 
 // 第三方库版本号

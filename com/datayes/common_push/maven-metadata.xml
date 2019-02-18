@@ -3,12 +3,12 @@
   <groupId>com.datayes</groupId>
   <artifactId>common_push</artifactId>
   <versioning>
-    <release>0.2.8</release>
+    <release>0.2.9</release>
     <versions>
       <version>0.2.6</version>
       <version>0.2.7</version>
-      <version>0.2.8</version>
+      <version>0.2.9</version>
     </versions>
-    <lastUpdated>20190201025811</lastUpdated>
+    <lastUpdated>20190216102525</lastUpdated>
   </versioning>
 </metadata>

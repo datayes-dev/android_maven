@@ -45,13 +45,14 @@ versions.datayes_iia_paper = "0.1.1"
 versions.datayes_iia_paper_api = "0.0.3"
 
 // 第三方库版本号
+versions.android_gradle_plugin = '3.3.2'
 versions.support = "28.0.0"
 versions.support_multidex = "1.0.3"
 versions.support_constraint = "1.1.3"
 versions.kotlin = "1.3.30"
 versions.arouter_runtime = "1.3.1"
 versions.arouter_compile = "1.1.4"
-versions.butterknife = "8.6.0"
+versions.butterknife = "10.1.0"
 versions.greendao = "3.2.2"
 versions.rxjava2 = "2.1.6"
 versions.rxandroid = "2.0.2"
@@ -136,8 +137,13 @@ datayes.datayes_iia_balance_api = "com.datayes.irr:balance_api:$versions.datayes
 datayes.datayes_iia_paper = "com.datayes.iia:paper:$versions.datayes_iia_paper"
 datayes.datayes_iia_paper_api = "com.datayes.iia:paper_api:$versions.datayes_iia_paper_api"
 
-
 deps.datayes = datayes
+
+// 插件
+deps.plugin = [:]
+plugin.android_gradle = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
+plugin.butterknife_gradle = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
+deps.plugin = plugin
 
 // 第三方
 def support = [:]

@@ -140,7 +140,7 @@ datayes.datayes_iia_paper_api = "com.datayes.iia:paper_api:$versions.datayes_iia
 deps.datayes = datayes
 
 // 插件
-deps.plugin = [:]
+def plugin = [:]
 plugin.android_gradle = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
 plugin.butterknife_gradle = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
 deps.plugin = plugin

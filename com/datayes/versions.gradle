@@ -157,6 +157,10 @@ support.multidex = "com.android.support:multidex:$versions.support_multidex"
 support.constraint = "com.android.support.constraint:constraint-layout:$versions.support_constraint"
 deps.support = support
 
+def arch = [:]
+arch.lifecycle_extensions = "android.arch.lifecycle:extensions:1.1.1"
+deps.arch = arch
+
 def kotlin = [:]
 kotlin.stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
 kotlin.test = "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin"

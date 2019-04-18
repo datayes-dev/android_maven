@@ -3,7 +3,7 @@ ext.deps = [:]
 // 依赖库版本号
 def versions = [:]
 // DataYes内部库版本号
-versions.datayes_common = "1.12.24"
+versions.datayes_common = "1.12.25"
 versions.datayes_track = "0.4.10"
 versions.datayes_cloud = "0.6.6"
 versions.datayes_bus = "0.2.4"
@@ -143,6 +143,7 @@ deps.datayes = datayes
 def plugin = [:]
 plugin.android_gradle = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
 plugin.butterknife_gradle = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
+plugin.kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
 deps.plugin = plugin
 
 // 第三方

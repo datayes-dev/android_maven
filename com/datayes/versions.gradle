@@ -146,6 +146,7 @@ plugin.android_gradle = "com.android.tools.build:gradle:$versions.android_gradle
 plugin.butterknife_gradle = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
 plugin.kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
 plugin.greendao_gradle = "org.greenrobot:greendao-gradle-plugin:$versions.greendao"
+plugin.fabric_gradle = "io.fabric.tools:gradle:1.+"
 deps.plugin = plugin
 
 // 第三方

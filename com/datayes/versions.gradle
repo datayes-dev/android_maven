@@ -91,6 +91,7 @@ versions.protobuf = "2.6.1"
 versions.subsampling_scale_image_view = "3.10.0"
 versions.nineoldandroids = "2.4.0"
 versions.lifecycle_extensions = "1.1.1"
+versions.timber = '4.7.1'
 
 // 外部依赖
 def deps = [:]
@@ -253,6 +254,8 @@ extra.qiyukf_unicorn = "com.qiyukf.unicorn:unicorn:$versions.qiyukf_unicorn"
 extra.magic_indicator = "com.github.hackware1993:MagicIndicator:$versions.magic_indicator"
 extra.photoview = "com.github.chrisbanes.photoview:library:$versions.photoview"
 extra.okhttp = "com.squareup.okhttp3:okhttp:$versions.okhttp"
+extra.okhttp_logging_interceptor = "com.squareup.okhttp3:logging-interceptor:$versions.okhttp"
+extra.timber = "com.jakewharton.timber:timber:$versions.timber"
 extra.subsampling_scale_image_view = "com.davemorrissey.labs:subsampling-scale-image-view:$versions.subsampling_scale_image_view"
 extra.nineoldandroids = "com.nineoldandroids:library:$versions.nineoldandroids"
 deps.extra = extra

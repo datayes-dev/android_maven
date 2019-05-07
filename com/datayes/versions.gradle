@@ -41,7 +41,7 @@ versions.datayes_iia_chart = "0.2.2"
 versions.datayes_iia_indic = "0.1.10"
 versions.datayes_iia_balance = "1.6.13"
 versions.datayes_iia_balance_api = "1.0.18"
-versions.datayes_iia_paper = "0.1.1"
+versions.datayes_iia_paper = "0.1.2"
 versions.datayes_iia_paper_api = "0.0.3"
 
 // 第三方库版本号

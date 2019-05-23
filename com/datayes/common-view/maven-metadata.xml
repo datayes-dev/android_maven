@@ -3,7 +3,7 @@
   <groupId>com.datayes</groupId>
   <artifactId>common-view</artifactId>
   <versioning>
-    <release>0.4.20</release>
+    <release>0.4.21</release>
     <versions>
       <version>0.1.25</version>
       <version>0.1.26</version>
@@ -55,7 +55,8 @@
       <version>0.4.18</version>
       <version>0.4.19</version>
       <version>0.4.20</version>
+      <version>0.4.21</version>
     </versions>
-    <lastUpdated>20190523061656</lastUpdated>
+    <lastUpdated>20190523062901</lastUpdated>
   </versioning>
 </metadata>

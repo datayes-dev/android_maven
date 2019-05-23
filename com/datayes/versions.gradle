@@ -94,6 +94,7 @@ versions.subsampling_scale_image_view = "3.10.0"
 versions.nineoldandroids = "2.4.0"
 versions.lifecycle_extensions = "1.1.1"
 versions.timber = '4.7.1'
+versions.bintray_release = '0.9.1'
 
 // 外部依赖
 def deps = [:]
@@ -151,6 +152,7 @@ plugin.butterknife_gradle = "com.jakewharton:butterknife-gradle-plugin:$versions
 plugin.kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
 plugin.greendao_gradle = "org.greenrobot:greendao-gradle-plugin:$versions.greendao"
 plugin.fabric_gradle = "io.fabric.tools:gradle:1.+"
+plugin.bintray_release = "com.novoda:bintray-release:$versions.bintray_release"
 deps.plugin = plugin
 
 // 第三方

@@ -23,7 +23,7 @@ versions.datayes_iia_api = "1.1.1"
 
 versions.datayes_iia_news = "1.5.0"
 versions.datayes_iia_news_api = "1.1.0"
-versions.datayes_iia_announce = "1.8.18"
+versions.datayes_iia_announce = "1.9.0"
 versions.datayes_iia_announce_api = "1.3.1"
 versions.datayes_iia_report = "1.2.10"
 versions.datayes_iia_report_api = "1.1.0"

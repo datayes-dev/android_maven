@@ -19,7 +19,7 @@ versions.datayes_servicethirdparty = "0.6.2"
 versions.datayes_push = "0.3.1"
 
 // 通联功能
-versions.datayes_iia_api = "1.1.12"
+versions.datayes_iia_api = "1.1.13"
 
 versions.datayes_iia_news = "1.5.13"
 versions.datayes_iia_news_api = "1.1.2"

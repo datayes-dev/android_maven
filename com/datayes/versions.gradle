@@ -3,9 +3,9 @@ ext.deps = [:]
 // 依赖库版本号
 def versions = [:]
 // DataYes内部库版本号
-versions.datayes_common = "1.16.5"
+versions.datayes_common = "1.16.8"
 versions.datayes_track = "0.5.9"
-versions.datayes_cloud = "0.7.9"
+versions.datayes_cloud = "0.7.10"
 versions.datayes_bus = "0.3.0"
 versions.datayes_chart = "0.8.0"
 versions.datayes_imageloader = "0.3.1"

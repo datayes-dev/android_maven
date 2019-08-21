@@ -47,7 +47,7 @@ versions.datayes_iia_paper = "0.2.5"
 versions.datayes_iia_paper_api = "0.1.0"
 
 // 第三方库版本号
-versions.android_gradle_plugin = '3.4.2'
+versions.android_gradle_plugin = '3.5.0'
 versions.support = "28.0.0"
 versions.support_multidex = "1.0.3"
 versions.support_constraint = "1.1.3"

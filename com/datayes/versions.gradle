@@ -248,8 +248,8 @@ sina.weibo = "com.sina.weibo.sdk:core:$versions.sina_weibo"
 deps.sina = sina
 
 def umeng = [:]
-umeng.common = "com.umeng.sdk:common:$versions.umeng_common"
-umeng.analytics = "com.umeng.sdk:analytics:$versions.umeng_analytics"
+umeng.common = "com.umeng.umsdk:common:$versions.umeng_common"
+umeng.analytics = "com.umeng.umsdk:analytics:$versions.umeng_analytics"
 deps.umeng = umeng
 
 def extra = [:]

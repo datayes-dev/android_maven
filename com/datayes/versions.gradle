@@ -281,3 +281,45 @@ build_versions.min_sdk = 15
 build_versions.target_sdk = 28
 build_versions.build_tools = "28.0.3"
 ext.build_versions = build_versions
+
+def addRepos(RepositoryHandler handler) {
+    // 阿里云私服仓库
+    handler.maven {
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+    handler.maven {
+        url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
+    }
+    handler.maven {
+        url 'http://maven.aliyun.com/nexus/content/repositories/google'
+    }
+    handler.maven {
+        url 'http://maven.aliyun.com/nexus/content/repositories/gradle-plugin'
+    }
+    // 通联Bintray仓库
+    handler.maven {
+        url "https://dl.bintray.com/datayes-dev/maven_common"
+    }
+    handler.maven {
+        url "https://dl.bintray.com/datayes-dev/maven_iia"
+    }
+
+    handler.maven {
+        url 'https://maven.fabric.io/public'
+    }
+    // 新浪微博
+    handler.maven {
+        url "https://dl.bintray.com/thelasterstar/maven/"
+    }
+    handler.maven {
+        url 'https://dl.bintray.com/umsdk/release'
+    }
+    // Jitpack
+    handler.maven {
+        url "https://jitpack.io"
+    }
+
+    handler.google()
+}
+
+ext.addRepos = this.&addRepos

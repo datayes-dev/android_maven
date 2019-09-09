@@ -97,6 +97,7 @@ versions.lifecycle_extensions = "1.1.1"
 versions.timber = '4.7.1'
 versions.bintray_release = '0.9.1'
 versions.flyco_tablayout = '2.1.2@aar'
+versions.fabric_plugin = '1.31.0'
 
 // 外部依赖
 def deps = [:]
@@ -153,7 +154,7 @@ plugin.android_gradle = "com.android.tools.build:gradle:$versions.android_gradle
 plugin.butterknife_gradle = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
 plugin.kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
 plugin.greendao_gradle = "org.greenrobot:greendao-gradle-plugin:$versions.greendao"
-plugin.fabric_gradle = "io.fabric.tools:gradle:1.+"
+plugin.fabric_gradle = "io.fabric.tools:gradle:$versions.fabric_plugin"
 plugin.bintray_release = "com.novoda:bintray-release:$versions.bintray_release"
 deps.plugin = plugin
 

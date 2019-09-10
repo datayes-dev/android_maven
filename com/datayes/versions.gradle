@@ -301,13 +301,6 @@ def addRepos(RepositoryHandler handler) {
     handler.maven {
         url 'http://maven.aliyun.com/nexus/content/repositories/gradle-plugin'
     }
-	// github
-	//handler.maven { 
-	//	url "https://raw.github.com/datayes-dev/iia_android/master" 
-	//}
-    //maven { 
-	//	url "https://raw.github.com/datayes-dev/android_maven/master" 
-	//}
     // 通联Bintray仓库
     handler.maven {
         url "https://dl.bintray.com/datayes-dev/maven_common"

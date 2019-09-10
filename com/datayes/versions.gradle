@@ -29,7 +29,7 @@ versions.datayes_iia_report = "1.4.8"
 versions.datayes_iia_report_api = "1.1.1"
 versions.datayes_iia_search = "0.2.5"
 versions.datayes_iia_servicestock = "0.4.9"
-versions.datayes_iia_servicestock_api = "1.1.5"
+versions.datayes_iia_servicestock_api = "1.2.0"
 versions.datayes_iia_stockmarket = "0.11.18"
 versions.datayes_iia_stockmarket_api = "0.3.0"
 versions.datayes_iia_selfstock_api = "0.4.0"
@@ -98,6 +98,7 @@ versions.timber = '4.7.1'
 versions.bintray_release = '0.9.1'
 versions.flyco_tablayout = '2.1.2@aar'
 versions.fabric_plugin = '1.31.0'
+versions.jforg_plugin_version = '4.9.9'
 
 // 外部依赖
 def deps = [:]
@@ -156,6 +157,7 @@ plugin.kotlin_gradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotl
 plugin.greendao_gradle = "org.greenrobot:greendao-gradle-plugin:$versions.greendao"
 plugin.fabric_gradle = "io.fabric.tools:gradle:$versions.fabric_plugin"
 plugin.bintray_release = "com.novoda:bintray-release:$versions.bintray_release"
+plugin.jforg_gradle = "org.jfrog.buildinfo:build-info-extractor-gradle:$versions.jforg_plugin_version"
 deps.plugin = plugin
 
 // 第三方
@@ -284,8 +286,8 @@ build_versions.build_tools = "28.0.3"
 ext.build_versions = build_versions
 
 def addRepos(RepositoryHandler handler) {
-	// 通联 JForg
-	handler.maven {
+    // 通联 JForg
+    handler.maven {
         url 'http://artifactory.datayes.com/artifactory/rrp-release'
     }
     // 阿里云私服仓库

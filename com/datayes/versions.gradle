@@ -290,6 +290,9 @@ def addRepos(RepositoryHandler handler) {
     handler.maven {
         url 'http://artifactory.datayes.com/artifactory/rrp-release'
     }
+	handler.maven {
+        url 'http://artifactory.datayes.com/artifactory/remote-repos'
+    }
     // 阿里云私服仓库
     handler.maven {
         url 'http://maven.aliyun.com/nexus/content/groups/public/'

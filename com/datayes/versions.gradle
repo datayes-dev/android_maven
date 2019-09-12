@@ -99,6 +99,7 @@ versions.bintray_release = '0.9.1'
 versions.flyco_tablayout = '2.1.2@aar'
 versions.fabric_plugin = '1.31.0'
 versions.jforg_plugin_version = '4.9.9'
+versions.brvah_version = '2.9.50'
 
 // 外部依赖
 def deps = [:]
@@ -274,6 +275,7 @@ extra.timber = "com.jakewharton.timber:timber:$versions.timber"
 extra.subsampling_scale_image_view = "com.davemorrissey.labs:subsampling-scale-image-view:$versions.subsampling_scale_image_view"
 extra.nineoldandroids = "com.nineoldandroids:library:$versions.nineoldandroids"
 extra.flyco_tablayout = "com.flyco.tablayout:FlycoTabLayout_Lib:$versions.flyco_tablayout"
+extra.brvah = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.brvah_version"
 deps.extra = extra
 
 ext.deps = deps

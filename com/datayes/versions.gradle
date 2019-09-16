@@ -100,6 +100,7 @@ versions.flyco_tablayout = '2.1.2@aar'
 versions.fabric_plugin = '1.31.0'
 versions.jforg_plugin_version = '4.9.9'
 versions.brvah_version = '2.9.50'
+versions.brvah_androidx_version = '2.9.45-androidx'
 
 // 外部依赖
 def deps = [:]
@@ -163,7 +164,7 @@ deps.plugin = plugin
 
 // 第三方
 def support = [:]
-support.appcompat = 'androidx.appcompat:appcompat:1.1.0'
+support.appcompat = 'androidx.appcompat:appcompat:1.0.0'
 support.cardview = 'androidx.cardview:cardview:1.0.0'
 support.design = 'com.google.android.material:material:1.0.0'
 support.v4 = "com.android.support:support-v4:$versions.support"
@@ -277,6 +278,7 @@ extra.subsampling_scale_image_view = "com.davemorrissey.labs:subsampling-scale-i
 extra.nineoldandroids = "com.nineoldandroids:library:$versions.nineoldandroids"
 extra.flyco_tablayout = "com.flyco.tablayout:FlycoTabLayout_Lib:$versions.flyco_tablayout"
 extra.brvah = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.brvah_version"
+extra.brvah_androidx = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.brvah_androidx_version"
 deps.extra = extra
 
 ext.deps = deps

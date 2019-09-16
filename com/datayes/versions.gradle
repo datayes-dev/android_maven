@@ -313,7 +313,7 @@ def addRepos(RepositoryHandler handler) {
     // }
     // handler.maven {
     //     url 'https://maven.fabric.io/public'
-    }
+    // }
     // 新浪微博
     handler.maven {
         url "https://dl.bintray.com/thelasterstar/maven/"

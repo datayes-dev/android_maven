@@ -299,17 +299,17 @@ def addRepos(RepositoryHandler handler) {
         url 'http://artifactory.datayes.com/artifactory/remote-repos'
     }
     // 阿里云私服仓库
-    handler.maven {
-        url 'https://maven.aliyun.com/repository/public'
-    }
-    handler.maven {
-        url 'https://maven.aliyun.com/repository/jcenter'
-    }
-    handler.maven {
-        url 'https://maven.aliyun.com/repository/gradle-plugin'
-    }
-    handler.maven {
-        url 'https://maven.fabric.io/public'
+    // handler.maven {
+    //     url 'https://maven.aliyun.com/repository/public'
+    // }
+    // handler.maven {
+    //     url 'https://maven.aliyun.com/repository/jcenter'
+    // }
+    // handler.maven {
+    //     url 'https://maven.aliyun.com/repository/gradle-plugin'
+    // }
+    // handler.maven {
+    //     url 'https://maven.fabric.io/public'
     }
     // 新浪微博
     handler.maven {
@@ -319,11 +319,11 @@ def addRepos(RepositoryHandler handler) {
         url 'https://dl.bintray.com/umsdk/release'
     }
     // Jitpack
-    handler.maven {
-        url "https://jitpack.io"
-    }
+    // handler.maven {
+    //     url "https://jitpack.io"
+    // }
 
-    handler.google()
+    // handler.google()
 }
 
 ext.addRepos = this.&addRepos

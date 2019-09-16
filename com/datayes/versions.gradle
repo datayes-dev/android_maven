@@ -291,13 +291,13 @@ ext.build_versions = build_versions
 def addRepos(RepositoryHandler handler) {
     // 通联 JForg
     handler.maven {
-        url 'http://artifactory.datayes.com/artifactory/rrp-release'
+        url 'http://10.21.236.199/artifactory/rrp-release'
     }
     handler.maven {
         url 'https://maven.aliyun.com/repository/google'
     }
     handler.maven {
-        url 'http://artifactory.datayes.com/artifactory/remote-repos'
+        url 'http://10.21.236.199/artifactory/remote-repos'
     }
     // 阿里云私服仓库
     // handler.maven {

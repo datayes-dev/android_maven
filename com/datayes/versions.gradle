@@ -292,6 +292,12 @@ def addRepos(RepositoryHandler handler) {
     handler.maven {
         url 'http://artifactory.datayes.com/artifactory/rrp-release'
     }
+    handler.maven {
+        url 'https://maven.aliyun.com/repository/google'
+    }
+    handler.maven {
+        url 'http://artifactory.datayes.com/artifactory/remote-repos'
+    }
     // 阿里云私服仓库
     handler.maven {
         url 'https://maven.aliyun.com/repository/public'
@@ -300,13 +306,7 @@ def addRepos(RepositoryHandler handler) {
         url 'https://maven.aliyun.com/repository/jcenter'
     }
     handler.maven {
-        url 'https://maven.aliyun.com/repository/google'
-    }
-    handler.maven {
         url 'https://maven.aliyun.com/repository/gradle-plugin'
-    }
-	handler.maven {
-        url 'http://artifactory.datayes.com/artifactory/remote-repos'
     }
     handler.maven {
         url 'https://maven.fabric.io/public'

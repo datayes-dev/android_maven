@@ -101,6 +101,11 @@ versions.fabric_plugin = '1.31.0'
 versions.jforg_plugin_version = '4.9.9'
 versions.brvah_version = '2.9.50'
 versions.brvah_androidx_version = '2.9.45-androidx'
+versions.skin_support = '4.0.4'
+versions.skin_support_appcompat = '4.0.4'
+versions.skin_support_design = '4.0.4'
+versions.skin_support_cardview = '4.0.4'
+versions.skin_support_constraint_layout = '4.0.4'
 
 // 外部依赖
 def deps = [:]
@@ -280,6 +285,11 @@ extra.nineoldandroids = "com.nineoldandroids:library:$versions.nineoldandroids"
 extra.flyco_tablayout = "com.flyco.tablayout:FlycoTabLayout_Lib:$versions.flyco_tablayout"
 extra.brvah = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.brvah_version"
 extra.brvah_androidx = "com.github.CymChad:BaseRecyclerViewAdapterHelper:$versions.brvah_androidx_version"
+extra.skin_support = "skin.support:skin-support:$versions.skin_support"
+extra.skin_support_appcompat = "skin.support:skin-support-appcompat:$versions.skin_support_appcompat"
+extra.skin_support_design = "skin.support:skin-support-design:$versions.skin_support_design"
+extra.skin_support_cardview = "skin.support:skin-support-cardview:$versions.skin_support_cardview"
+extra.skin_support_constraint_layout = "skin.support:skin-support-constraint-layout:$versions.skin_support_constraint_layout"
 deps.extra = extra
 
 ext.deps = deps

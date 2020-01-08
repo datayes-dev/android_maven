@@ -172,7 +172,7 @@ deps.plugin = plugin
 
 // 第三方
 def support = [:]
-support.appcompat = 'androidx.appcompat:appcompat:1.0.0'
+support.appcompat = 'androidx.appcompat:appcompat:1.1.0'
 support.cardview = 'androidx.cardview:cardview:1.0.0'
 support.design = 'com.google.android.material:material:1.0.0'
 support.v4 = "com.android.support:support-v4:$versions.support"
@@ -183,7 +183,7 @@ support.viewpager2 = "androidx.viewpager2:viewpager2:$versions.viewpager2"
 deps.support = support
 
 def arch = [:]
-arch.lifecycle_extensions = 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+arch.lifecycle_extensions = 'androidx.lifecycle:lifecycle-extensions:2.1.0'
 deps.arch = arch
 
 def kotlin = [:]
@@ -197,6 +197,12 @@ def kotlinx = [:]
 kotlinx.coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
 kotlinx.coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
 deps.kotlinx = kotlinx
+
+def ktx = [:]
+ktx.core = 'androidx.core:core-ktx:1.1.0'
+ktx.lifecycle_viewmodel_ktx = 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0'
+ktx.fragment_ktx = 'androidx.fragment:fragment-ktx:1.1.0'
+deps.ktx = ktx
 
 def arouter = [:]
 arouter.runtime = "com.alibaba:arouter-api:$versions.arouter_runtime"

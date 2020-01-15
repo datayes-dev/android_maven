@@ -23,7 +23,7 @@ versions.datayes_daddy_api = "0.0.1"
 // 通联功能
 versions.datayes_iia_api = "1.3.26"
 
-versions.datayes_iia_news = "1.10.7"
+versions.datayes_iia_news = "1.10.8"
 versions.datayes_iia_news_api = "1.2.0"
 versions.datayes_iia_announce = "1.11.1"
 versions.datayes_iia_announce_api = "1.4.0"

@@ -2,7 +2,7 @@
 
 <metadata>
   <groupId>androidx.activity</groupId>
-  <artifactId>activity</artifactId>
+  <artifactId>activity-ktx</artifactId>
   <versioning>
     <latest>1.1.0</latest>
     <release>1.1.0</release>

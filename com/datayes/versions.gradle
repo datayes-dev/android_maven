@@ -280,6 +280,11 @@ umeng.common = "com.umeng.umsdk:common:$versions.umeng_common"
 umeng.analytics = "com.umeng.umsdk:analytics:$versions.umeng_analytics"
 deps.umeng = umeng
 
+def jiguang = [:]
+jiguang.jcore = 'cn.jiguang.sdk:jcore:2.2.8'
+jiguang.jverification = 'cn.jiguang.sdk:jverification:2.5.3'
+deps.jiguang = jiguang
+
 def extra = [:]
 extra.crashlytics = "com.crashlytics.sdk.android:crashlytics:$versions.crashlytics"
 extra.circleimageview = "de.hdodenhof:circleimageview:$versions.circleimageview"

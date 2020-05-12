@@ -21,7 +21,7 @@ versions.datayes_daddy = "0.0.19"
 versions.datayes_daddy_api = "0.0.6"
 
 // 通联功能
-versions.datayes_iia_api = "1.4.0"
+versions.datayes_iia_api = "1.4.2"
 
 versions.datayes_iia_news = "1.11.13"
 versions.datayes_iia_news_api = "1.2.0"
@@ -191,6 +191,7 @@ support.viewpager2 = "androidx.viewpager2:viewpager2:$versions.viewpager2"
 deps.support = support
 
 def activity = [:]
+activity.runtime = "androidx.activity:activity:$versions.activity"
 activity.activity_ktx = "androidx.activity:activity-ktx:$versions.activity"
 deps.activity = activity
 

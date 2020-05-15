@@ -298,8 +298,8 @@ umeng.analytics = "com.umeng.umsdk:analytics:$versions.umeng_analytics"
 deps.umeng = umeng
 
 def jiguang = [:]
-jiguang.jcore = 'cn.jiguang.sdk:jcore:2.2.8'
-jiguang.jverification = 'cn.jiguang.sdk:jverification:2.5.3'
+jiguang.jcore = 'cn.jiguang.sdk:jcore:2.3.4'
+jiguang.jverification = 'cn.jiguang.sdk:jverification:2.6.4'
 deps.jiguang = jiguang
 
 def extra = [:]

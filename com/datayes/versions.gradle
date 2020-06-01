@@ -3,7 +3,7 @@ ext.deps = [:]
 // 依赖库版本号
 def versions = [:]
 // DataYes内部库版本号
-versions.datayes_common = "1.25.44"
+versions.datayes_common = "1.25.47"
 versions.datayes_track = "0.8.18"
 versions.datayes_cloud = "0.9.35"
 versions.datayes_bus = "0.4.6"
@@ -13,7 +13,7 @@ versions.datayes_net = "0.5.21"
 versions.datayes_storage = "0.4.0"
 versions.datayes_utils = "0.4.4"
 versions.datayes_view = "0.7.20"
-versions.datayes_pdf = "1.4.8"
+versions.datayes_pdf = "1.4.10"
 versions.datayes_ocr_ui = "0.3.2"
 versions.datayes_servicethirdparty = "0.7.25"
 versions.datayes_push = "0.7.8"
@@ -21,7 +21,7 @@ versions.datayes_daddy = "0.0.19"
 versions.datayes_daddy_api = "0.0.7"
 
 // 通联功能
-versions.datayes_iia_api = "1.4.20"
+versions.datayes_iia_api = "1.4.22"
 
 versions.datayes_iia_news = "1.11.23"
 versions.datayes_iia_news_api = "1.2.0"
